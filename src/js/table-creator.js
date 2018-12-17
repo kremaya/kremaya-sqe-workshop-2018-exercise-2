@@ -268,7 +268,6 @@ function elseifSt(object) {
 }
 
 function elseSt(object) {
-
     let jsonObj = { 'Line': object.loc.start.line-1, 'Type': 'Else Statment', 'Name': null, 'Condition': null, 'Value': null };
     arr.push(jsonObj);
 }
